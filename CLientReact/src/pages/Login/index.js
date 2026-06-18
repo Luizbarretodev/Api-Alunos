@@ -1,0 +1,30 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logoImage from '../../assets/Login.png';
+import './styles.css';
+
+export default function Login() {
+    return (
+        <div className='login-container'>
+            <section className='form'>
+                <img src={logoImage} alt="Login" id="img1" />
+
+                <form>
+                    <h1>Cadastro de Alunos</h1>
+
+                    <input placeholder="Email" />
+
+                    <input
+                        type="password"
+                        placeholder="Password"
+                    />
+
+                    <button className="button" type="submit">
+                        Login
+                    </button>
+                </form>
+
+            </section>
+        </div>
+    )
+}
