@@ -6,18 +6,13 @@
 
     display: flex;
     align-items: center;
-    justify-content: center; /* alterado */
+    justify-content: space-evenly;
 }
 
-.login-container section.form {
+.login-container section.form{
     width: 100%;
     max-width: 350px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-right: 0; /* alterado */
+    margin-right: 30px;
 }
 
 .login-container section.form img {
@@ -27,23 +22,17 @@
     display: block;
 }
 
-.login-container section.form form {
+.login-container section.form form{
     margin-top: 5px;
-    width: 100%; /* adicionado */
 }
 
-.login-container section.form form h1 {
+.login-container section.form form h1{
     font-size: 32px;
     margin-bottom: 32px;
-    text-align: center; /* adicionado */
-}
-
-.login-container section.form form input,
-.login-container section.form form button {
-    width: 100%; /* adicionado */
 }
 
 #img1 {
     width: 80%;
     height: auto;
-}
+}    
+  
